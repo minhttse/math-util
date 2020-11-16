@@ -20,6 +20,7 @@ public class MathUtilityTest {
     //ham test 
     public void getFactorial_RunsWell_IfValidArgument(){
         assertEquals(720, getFactorial(6));
+        assertEquals(1, getFactorial(0));
     }
     
     //Can test xem co nem ve ngoai le hay khong ?
