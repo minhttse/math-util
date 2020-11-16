@@ -25,7 +25,7 @@ public class MathUtilityTest {
     
     //Can test xem co nem ve ngoai le hay khong ?
     //neu dung la nem ve ngoai le IllegalArgumentException trong tinh huong giai thua -5 thi tao co may xanh
-    @Test(expected = SQLException.class)
+    @Test(expected = IllegalArgumentException.class)
     public void getFactorial_ThrowsException_IfInvalidArgument(){
         getFactorial(-5);
     }
