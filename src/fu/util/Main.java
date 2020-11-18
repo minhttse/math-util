@@ -23,6 +23,8 @@ public class Main {
         //expected 1 neu 0!
         System.out.println("0!: "+MathUtility.getFactorial(0));
         
+        System.out.println("Goodbye and good luck to you all in the FINAL EXAM");
+        System.out.println("Hope that you all will get the GREEN ICONS");
         //excepted: IllegalArgumentException if tinh -5;
         System.out.println("-5!: "+MathUtility.getFactorial(-5));
         
